@@ -3,11 +3,11 @@
 
 workflows:
     ios-app:
-        name: iOS App
+        name: Business Card
         environment:
             vars:
-                XCODE_WORKSPACE: "Salah Etma"
-                XCODE_SCHEME: "None"
+                XCODE_WORKSPACE: ""
+                XCODE_SCHEME: ""
             xcode: latest
             cocoapods: default
         scripts:
